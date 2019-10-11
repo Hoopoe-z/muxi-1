@@ -1,0 +1,83 @@
+
+#include <stdio.h>
+int main(void)
+{
+int a,b;
+puts("请输入两个整数。");
+printf("整数A:"); scanf("%d",&a);
+printf("整数B:"); scanf("%d",&b);
+if (a%b)
+   puts("B不是A的约数。");
+else
+   puts("B是A的约数。");
+return 0;
+}
+#include <stdio.h>
+int main(void)
+{
+int a,b;
+puts("请输入两个整数。");
+printf("整数A:"); scanf("%d",&a);
+printf("整数B:"); scanf("%d",&b);
+if (a==b)
+puts("A和B相等。");
+else if(a>b)
+puts("A大于B。");
+else
+puts("A小于B。");
+return 0;
+}
+
+#include <stdio.h>
+int main(void)
+{
+int a=1;
+printf("%d,%d\n",(a==1),(a==0));
+printf("%d,%d\n",(a>0),(0>a));
+return 0;
+}
+#include <stdio.h>
+int main(void)
+{
+int a,b,c,d,max;
+puts("请输入四个整数。");
+printf("整数1："); scanf("%d",&a);
+printf("整数2：");  scanf("%d",&b);
+printf("整数3：");  scanf("%d",&c);
+printf("整数4：");  scanf("%d",&d);
+max=a;
+if (b>max) max=b;
+if (c>max) max=c;
+if (d>max) max=d;
+printf("最大值是%d。\n",max);
+return 0;
+}
+#include <stdio.h>
+int main(void)
+{int a,b;
+puts("请输入两个整数。");
+printf("整数1："); scanf("%d",&a);
+printf("整数2："); scanf("%d",&b);
+printf("它们",(a==b)?);
+
+#include <stdio.h>
+int main(void)
+{
+int month;
+printf("请输入月份："); scanf("%d",&month);
+switch(month){
+case 3:
+case 4:
+case 5:puts("春季"); break;
+case 6:
+case 7:
+case 8:puts("夏季"); break;
+case 9:
+case 10:
+case 11:puts("秋季"); break;
+case 12:
+case 1:
+case 2:puts("冬季"); break;
+}
+return 0;
+}
